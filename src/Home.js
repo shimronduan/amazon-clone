@@ -1,13 +1,58 @@
 import React from "react";
 import "./Home.css";
-
+import Product from "./Product";
 const Home = () => {
   return (
-    <div className="home__container">
-      <img
-        src="https://m.media-amazon.com/images/G/01/digital/video/sonata/Superhero_UK_Acquisition_FT_Apr_20/f4b165f5-678a-48bb-a049-11e7ddc2168d._UR3000,600_SX1500_FMjpg_.jpg"
-        alt=""
-      />
+    <div className="home">
+      <div className="home__container">
+        <img
+          className="home__image"
+          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/gateway/placement/launch/All_Or_Nothing_Tottenham_Hotspur_S1/AONT_S1_GWBleedingHero_FT_COVIDUPDATE_XSite_1500X600_PV_en-GB._CB406302419_.jpg"
+          alt=""
+        />
+        <div className="home__row">
+          <Product
+            title="Sony WH-1000XM4 Wireless Industry Leading Noise Canceling Overhead Headphones with Mic for phone-call and Alexa voice control, Black"
+            price="348.99"
+            image="https://m.media-amazon.com/images/I/71o8Q5XJS5L._AC_UL320_.jpg"
+            rating={5}
+          />
+          <Product
+            title="Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 in S Mode, A515-43-R19L, Silver"
+            price="416.01"
+            image="https://images-na.ssl-images-amazon.com/images/I/41vMYgD92xL._AC_US160_.jpg"
+            rating={4}
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            title="POWRUI Surge Protector, USB Wall Charger with 2 USB Charging Ports(Smart 2.4A Total), 6-Outlet Extender and Top Phone Holder for Your Cell Phone, White, ETL Listed"
+            price="14.57"
+            image="https://m.media-amazon.com/images/I/61EqySCNupL._AC_UL320_.jpg"
+            rating={3}
+          />
+          <Product
+            title="Bose SoundSport Free, True Wireless Earbuds, (Sweatproof Bluetooth Headphones for Workouts and Sports), Black"
+            price="149.99"
+            image="https://m.media-amazon.com/images/I/61THVCgtYxL._AC_UL320_.jpg"
+            rating={4}
+          />
+          <Product
+            title="Darksiders Genesis - Nephilim Edition - PS4 - PlayStation 4 Nephilim Edition"
+            price="379.99"
+            image="https://images-na.ssl-images-amazon.com/images/I/71gXjeOTLzL._AC_UL270_SR270,270_.jpg"
+            rating={3}
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            title="Sony XBR-65A9G 65 Inch TV: Master Series BRAVIA OLED 4K Ultra HD Smart TV with HDR and Alexa Compatibility with HT-G700 3.1CH Dolby Atmos/DTS:X Soundbar"
+            price="1299.99"
+            image="https://m.media-amazon.com/images/I/61baGFdOXfL._AC_UY218_.jpg"
+            rating={5}
+          />
+        </div>
+      </div>
     </div>
   );
 };

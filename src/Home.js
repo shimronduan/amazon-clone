@@ -18,15 +18,15 @@ const Home = () => {
             rating={5}
           />
           <Product
-            title="Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 in S Mode, A515-43-R19L, Silver"
+            title="JBL Bar 5.1 4K Ultra HD 5.1-Channel Soundbar with True Wireless Surround Speakers, Black (JBLBAR51BLK)"
             price="416.01"
-            image="https://images-na.ssl-images-amazon.com/images/I/41vMYgD92xL._AC_US160_.jpg"
+            image="https://m.media-amazon.com/images/I/61QP89LUj9L._AC_UL320_.jpg"
             rating={4}
           />
         </div>
         <div className="home__row">
           <Product
-            title="POWRUI Surge Protector, USB Wall Charger with 2 USB Charging Ports(Smart 2.4A Total), 6-Outlet Extender and Top Phone Holder for Your Cell Phone, White, ETL Listed"
+            title="POWRUI Surge Protector, USB Wall Charger with 2 USB Charging Ports(Smart 2.4A Total)"
             price="14.57"
             image="https://m.media-amazon.com/images/I/61EqySCNupL._AC_UL320_.jpg"
             rating={3}
